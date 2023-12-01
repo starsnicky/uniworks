@@ -1,20 +1,18 @@
-public class Celular{
+public class CelularComJogo extends  Celular{
     public static void main(String[] args) {
-        Celular meuCelular = new Celular();
-        meuCelular.enviarMensagem("(85) 98944-2782","Bom dia! Como você está?");
-        meuCelular.tocarMusica("(Spotify) Aespa - Black Mamba");
-
-    }
-    public void  tocarMusica( String Musica){
-        System.out.println("Está tocando"  +": " +  Musica);
-    }
-
-    public void enviarMensagem(String numero, String mensagem) {
-        System.out.println(
-
-                "Enviando mensagem para " + numero + ": " + mensagem);
-
+        System.out.println("\nMetodo da Classe Celuar");
+        CelularComJogo meuCelularComJogo = new CelularComJogo();
+        meuCelularComJogo.tocarMuisica("Axe");
+        System.out.println("\nMetodo da Classe Celuar com Jogo");
+        meuCelularComJogo.iniciarJogo("Mario World");
+        meuCelularComJogo.pausarJogo();
     }
 
+    public void iniciarJogo(String nomeJogo) {
+        System.out.println("Iniciando o jogo: " + nomeJogo);
+    }
 
+    public void pausarJogo() {
+        System.out.println("Jogo pausado");
+    }
 }
