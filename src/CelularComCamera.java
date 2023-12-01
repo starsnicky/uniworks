@@ -1,5 +1,5 @@
 public class CelularComCamera {
-    public static void (String[] args) {
+    public static void main(String[] args) {
         System.out.println();
         CelularComCamera meuCelularComCamera = new CelularComCamera();
         System.out.println("\nMetodo da Classe Celuar Com Camera");
@@ -17,4 +17,3 @@ public class CelularComCamera {
                 "Aplicando filtro: " + filtro);
     }
 }
-V
