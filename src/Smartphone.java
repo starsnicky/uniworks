@@ -3,7 +3,7 @@ public class Smartphone {
         System.out.println();
         Smartphone meuSmartphone = new Smartphone();
         meuSmartphone.instalarApp("Instagram");
-         meuSmartphone.acessarInternrt();
+         meuSmartphone.acessarInternet();
     }
     public void acessarInternet () {
         System.out.println("Conectando");
